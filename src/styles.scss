@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import '~@swimlane/ngx-datatable/index.css';
+@import '~@swimlane/ngx-datatable/themes/material.scss';
+@import '~@swimlane/ngx-datatable/assets/icons.css';
+@import '~@swimlane/ngx-datatable/themes/bootstrap.scss';
+.ngx-datatable.bootstrap .datatable-body .datatable-body-row .datatable-body-cell {
+    text-align: left;
+    vertical-align: top;
+}
+
+.ngx-datatable .datatable-body-cell {
+    margin-top: 5px;
+}
+
+.selected {
+    border-right-color: silver;
+    border-right-style: solid;
+    background: #f5f5f5;
+    color: gray;
+    font-size: 10px;
+}

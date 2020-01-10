@@ -1,0 +1,25 @@
+@import '~@swimlane/ngx-datatable/index.css';
+@import '~@swimlane/ngx-datatable/themes/material.scss';
+@import '~@swimlane/ngx-datatable/assets/icons.css';
+@import '~@swimlane/ngx-datatable/themes/bootstrap.scss';
+.ngx-datatable.bootstrap .datatable-body .datatable-body-row .datatable-body-cell {
+    text-align: left;
+    vertical-align: top;
+    font-size: x-large;
+}
+
+.ngx-datatable .datatable-body-cell {
+    margin-top: 5px;
+}
+
+.slickgrid-container .slick-row .slick-cell.active {
+    background-color: greenyellow;
+}
+
+.duration-bg {
+    background-color: #e9d4f1 !important
+}
+
+.highlight {
+    background: yellow
+}
