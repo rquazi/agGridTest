@@ -24,7 +24,7 @@
     "@swimlane/ngx-datatable": "^16.0.2",
     "ag-grid-angular": "^21.2.2",
     "ag-grid-community": "^21.2.2",
-    "angular-slickgrid": "^2.14.0",
+    "angular-slickgrid": "^2.30.5",
     "bootstrap": "^4.3.1",
     "core-js": "^2.5.4",
     "font-awesome": "^4.7.0",
